@@ -12,7 +12,7 @@ void phat(uint8_t hat) {
 }
 
 void pushdot() {
-    if (image[(xpos / 8) + (ypos * 40)] & 1 << (xpos % 8)) {
+    if (image_data[(xpos / 8) + (ypos * 40)] & 1 << (xpos % 8)) {
         pressButton(BUTTON_A);
         delay(32);
         releaseButton(BUTTON_A);
