@@ -1,0 +1,2 @@
+# ch552spl3printer
+CH55x系マイコンをSplatoon3の自動ドット打ちに使う
